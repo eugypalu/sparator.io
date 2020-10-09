@@ -1,0 +1,28 @@
+{
+  "name": "sparator.io",
+  "version": "1.0.0",
+  "description": "Progetto di realtá virtuale",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugenio Paluello e Simone Cimarelli",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "three": "0.84.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-run": "^0.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/eug/Sparatorio.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/eug/Sparatorio/issues"
+  },
+  "homepage": "https://gitlab.com/eug/Sparatorio#readme"
+}

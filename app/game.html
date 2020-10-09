@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="paused loading">
+<head>
+  <title>Battaglia di Jakku</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div id="container"></div>
+<div id="crosshair"><img src="assets/cross.svg" height="160"></div>
+<div id="target">⋀<br><span>0</span></div>
+<!--<div id="horizon"><div class="inner"></div><div></div><div class="inner"></div></div>-->
+<div id="info">
+  <div id="time">Tempo: 0.00</div>
+  <div id="targetsleft">Nemici rimasti: 0</div>
+</div>
+<div id="hud">
+  <div id="thrust">POTENZA MOTORE:</div>
+  <div id="speed">VELOCITA':</div>
+  <div id="height">ALTITUDINE:</div>
+</div>
+<div id="report"></div>
+<div id="help">
+  <h1>Comandi</h1>
+
+  <table>
+    <thead>
+    <tr>
+      <td>Azione</td>
+      <td>Mouse/Tastiera</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Pausa/Riprendi</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>Accelera</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>Decelera</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td>Fuoco</td>
+      <td>Tasto Sx Mouse</td>
+    </tr>
+    <tr>
+      <td>Pitch</td>
+      <td>Mouse Asse Y</td>
+    </tr>
+    <tr>
+      <td>Roll</td>
+      <td>Mouse Asse X</td>
+    </tr>
+    <tr>
+      <td>Sinistra</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Destra</td>
+      <td>D</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <h2 id="buttonReady">Pronto? premi "P" per iniziare!</h2>
+
+  <h2 id="buttonLoading">Attendi...</h2>
+</div>
+<script src="js/lib/three/Stats.js"></script>
+<script src="js/lib/requirejs/require.js"></script>
+<script src="js/lib/game-shim/game-shim.js"></script>
+<script src="js/lib/three/three.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
